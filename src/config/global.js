@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Interfaces gráficas de usuario y experiencia de usuario',
+    descripcionCurso:
+      'Este componente formativo abordará el concepto de interfaces gráficas de usuario, con todos sus conceptos y buenas prácticas, así como el tema de experiencia de usuario.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,31 +42,85 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Objetos de interfaz de usuario',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Elementos de interfaz de usuario',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Características de interfaz de usuario',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas para creación de interfaz de usuario',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Presentación de la información',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Componentes de interfaz gráfica de usuario',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Patrones de diseño en interfaz de usuario',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Elementos',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Características',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Patrones de navegación en interfaz de usuario',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Elementos',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Características',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +165,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Tipos de interfaz de usuario | Interface',
+      referencia: 'Teocom. 2021',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YoRtDMj9E20',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Interfaz de usuario',
+      referencia: 'Tedx Talks. 2019',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bptPpkmprNw',
+    },
+    {
+      tema: 'UI: Conoce la interfaz de usuario',
+      referencia: 'Crehana, 2019',
+      tipo: 'Video',
+      link: 'https://youtu.be/K7tqYyLq0M4',
+    },
+    {
+      tema: 'Elementos de una interfaz',
+      referencia: 'Francisco Aguilera, 2020',
+      tipo: 'Video',
+      link: 'https://youtu.be/TSdKFE0sLg8',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'API',
+      significado: 'Interfaz de Programación de Aplicaciones.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Atributo',
+      significado: 'característica relevante de un objeto.',
+    },
+    {
+      termino: 'GUI',
+      significado: 'Interfaz Gráfica de Usuario.',
+    },
+    {
+      termino: 'Interfaz',
+      significado:
+        'conexión que se da de manera física y a nivel de utilidad entre dispositivos o sistemas.',
+    },
+    {
+      termino: 'Layout',
+      significado:
+        'contenedor invisible en la interfaz gráfica que puede integrar varios elementos visuales.',
+    },
+    {
+      termino: 'Método',
+      significado:
+        'es una función de código que realiza un comportamiento específico de un objeto.',
+    },
+    {
+      termino: 'Objeto',
+      significado:
+        'entidad del mundo real que representa la instancia de una clase.',
+    },
+    {
+      termino: 'Parámetro',
+      significado: 'especifica el tipo de dato que recibirá un método.',
+    },
+    {
+      termino: 'Visibilidad',
+      significado:
+        'valor que tendrá un atributo para conocer quién puede alcanzarlo en el sistema.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Campaña Haro, M. N., & Martillo Vásquez, E. L. (2020). <em> Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</em> [Tesis de grado, Universidad de Guayaquil].',
+      link: 'http://repositorio.ug.edu.ec/handle/redug/52257',
+    },
+    {
+      referencia:
+        'Cantos Jara, J. K., & Molina Franco, K. J. (2020). <em> Análisis y desarrollo de la sección interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI-053 temonet de la Universidad De Guayaquil</em> [Tesis de grado, Universidad de Guayaquil].',
+      link: 'http://repositorio.ug.edu.ec/handle/redug/48814',
+    },
+    {
+      referencia:
+        'Casas, P. (2021). <em>Desarrollo de una Interfaz Gráfica de Usuario para aplicaciones docentes.</em> [Trabajo de grado, Universidad Politécnica de Cartagena].',
+      link: 'http://hdl.handle.net/10317/9450',
+    },
+    {
+      referencia:
+        'Castillo, L. C. B., Daza, R. P. T., Peña, G. D., & Riaza, H. F. Q. (2018). Desarrollo de una interfaz gráfica para el control de posición de un manipulador paralelo plano 3RRR. <em>Scientia et Technica</em>, 23(2), 168-174.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/6643332.pdf',
+    },
+    {
+      referencia:
+        'Fernández-de-Córdoba-Martos, G. (2019). Creación de Interfaces Gráficas de Usuario (GUI) con MatLab. Universidad de Málaga.',
+      link: 'https://hdl.handle.net/10630/17148',
+    },
+    {
+      referencia:
+        'Martínez, Y. A., & Córdoba, C. A. C. (2018). Diseño de Interfaz de Usuario para la creación de Sistemas Multimedia para Apoyar el Desarrollo del Lenguaje. <em>Tecnología & Diseño</em>, (9), 39-55.',
+      link: 'https://revistatd.azc.uam.mx/index.php/rtd/article/view/39/72',
     },
   ],
   creditos: {
@@ -165,7 +300,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
