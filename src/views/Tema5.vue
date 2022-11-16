@@ -64,7 +64,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Cards]
-            p.mb-0 Esta
+            p.mb-0 Las tarjetas o Cards proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img06.png")
         .row.justify-content-center.align-items-center
