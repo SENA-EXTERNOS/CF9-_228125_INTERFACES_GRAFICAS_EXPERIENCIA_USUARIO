@@ -98,7 +98,7 @@
 
     .row.justify-content-center.mb-4
       .col-10
-        .bloque-texto-g.color-acento-botones.bloque-inv.p-3.p-sm-4.mb-4
+        .bloque-texto-g.color-acento-botones.bloque-inv.p-4.p-sm-5.mb-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img05.svg')})`}"
           )(data-aos="fade-right")

@@ -7,7 +7,7 @@
         span 1
       h1 Objetos de interfaz de usuario
     
-    .bloque-texto-g.color-secundario.inv01.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-secundario.inv01.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.svg')})`}"
       )(data-aos="fade-right")
@@ -30,7 +30,7 @@
         .col-lg-3(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img02.svg")
     
-      p Elementos de una interfaz gráfica de usuario
+      p Elementos de una interfaz gráfica de usuario.
     
     .BGIMG02.p-4.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")

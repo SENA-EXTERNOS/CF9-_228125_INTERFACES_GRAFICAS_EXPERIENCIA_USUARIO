@@ -11,7 +11,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img01.svg')})`}"
       )(data-aos="fade-right")
-      .bloque-texto-g__texto.p-4(data-aos="fade-left")
+      .bloque-texto-g__texto.p-5(data-aos="fade-left")
         p.mb-0 Como su nombre lo indica, los patrones de diseño de interfaz gráfica de usuario son soluciones en materia de diseño para resolver problemas repetitivos y muy comunes en temas de navegación, interacción y diseño de interfaces.<br><br>Antes de entrar en el tema en cuestión, una reflexión: muchas veces, las personas en su comportamiento cotidiano, cuando ingresan a varias páginas web para obtener información por cuestiones de trabajo y demás, tienden a pensar que ya antes han ingresado a una página similar. Lo anterior no indica plagio o robo de código o copia, esto suele suceder porque se han utilizado los mismos patrones que definen un estándar en diseño de aplicaciones.
 
     .BGIMG08.p-md-5.p-4
@@ -119,7 +119,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img11.svg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.text-white Usar un patrón de diseño no es copiar, sino reutilizar un componente que es una solución ya realizada, probada y conocida, para solucionar el problema común que se tiene en la aplicación.<br><br>Asimismo, utilizar patrones de diseño ayuda a tener presente cómo otras apps u otras empresas están solucionando ese problema común.<br><br>Por último, es siempre difícil comenzar un nuevo proyecto y más si se empieza todo de cero, es como tener una hoja en blanco sin saber qué hacer, en cambio, con los patrones ya se tiene una guía de cómo abordar ciertos contextos.
+        p.text-white Usar un patrón de diseño no es copiar, sino reutilizar un componente que es una solución ya realizada, probada y conocida, para solucionar el problema común que se tiene en la aplicación.<br><br>Asimismo, utilizar patrones de diseño ayuda a tener presente cómo otras #[em apps] u otras empresas están solucionando ese problema común.<br><br>Por último, es siempre difícil comenzar un nuevo proyecto y más si se empieza todo de cero, es como tener una hoja en blanco sin saber qué hacer, en cambio, con los patrones ya se tiene una guía de cómo abordar ciertos contextos.
 
 </template>
 

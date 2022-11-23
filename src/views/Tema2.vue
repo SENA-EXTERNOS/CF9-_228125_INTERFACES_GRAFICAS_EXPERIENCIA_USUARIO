@@ -21,7 +21,7 @@
         .col-lg-8(data-aos="fade-left")
           .cajon-b.color-acento-botones.p-3.mb-4
             p.mb-0 Es indispensable, siempre que se vaya a hacer un diseño, contar con algunos recursos fundamentales para ese trabajo. En primera medida se debe revisar y seleccionar la herramienta adecuada para trabajar el diseño de las interfaces, realizando así una propuesta inicial o un prototipo para que el cliente pueda revisar si este primer acercamiento es acorde con lo que necesita y si se deben hacer ajustes dentro de la respectiva retroalimentación.
-          p.mb-0 Hasta hace unos años la herramienta predilecta para este proceso de diseño era Photoshop  , la cual era muy utilizada por ilustradores, diseñadores, desarrolladores y todos los roles con incidencia en contenidos o productos digitales. Pero ahora, como en los proyectos lo más común es que se tenga que diseñar para tres productos o plataformas: escritorio, web y móvil, se debe revisar qué herramienta da esa funcionalidad y facilidad.
+          p.mb-0 Hasta hace unos años la herramienta predilecta para este proceso de diseño era #[em Photoshop], la cual era muy utilizada por ilustradores, diseñadores, desarrolladores y todos los roles con incidencia en contenidos o productos digitales. Pero ahora, como en los proyectos lo más común es que se tenga que diseñar para tres productos o plataformas: escritorio, web y móvil, se debe revisar qué herramienta da esa funcionalidad y facilidad.
 
       p A continuación, se mencionan algunas herramientas que permiten hacer este trabajo de una manera más eficiente y sencilla. Es indispensable, siempre que se vaya a hacer un diseño, contar con algunos recursos fundamentales para ese trabajo. En primera medida se debe revisar y seleccionar la herramienta que se utilizará para el diseño de las interfaces.
       
@@ -29,7 +29,7 @@
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
           AcordionA.mb-5(tipo="a" clase-tarjeta="BGR01")
             .row(titulo="BALSAMIQ")
-              p Es una herramienta que se debe registrar para comenzar su uso, permite crear interfaces gráficas de usuario basadas en el #[em wireframing] y tiene un estilo visual de dibujo a mano alzada. Este software diseñado para la creación o bosquejo de interfaces tiene una variedad de elementos que se pueden utilizar: menús, barras de navegación, elementos de estado, etc. Además, tiene la funcionalidad de arrastrar y soltar para ir creando el diseño.
+              p Es una herramienta que se debe registrar para comenzar su uso, permite crear interfaces gráficas de usuario basadas en el #[em wireframing] y tiene un estilo visual de dibujo a mano alzada. Este #[em software] diseñado para la creación o bosquejo de interfaces tiene una variedad de elementos que se pueden utilizar: menús, barras de navegación, elementos de estado, etc. Además, tiene la funcionalidad de arrastrar y soltar para ir creando el diseño.
               p.mb-0 Después de terminar el diseño de las interfaces se pueden exportar a JPG o PDF para su posterior comunicación. Una ventaja de esta herramienta es que su trabajo es multiplataforma, es decir, se puede trabajar desde cualquier sistema operativo y permite el trabajo colaborativo con otros integrantes de su equipo. Habría que decir también que en su versión gratuita se puede trabajar desde la nube.
             .row(titulo="MOCKINGBIRD")
               p Esta es una herramienta que no requiere de ninguna instalación en la máquina y no se necesita tener tantos conocimientos o experiencia, por eso es ideal para usuarios nuevos o con poca experiencia que necesiten crear #[em mockups], ofreciendo alrededor de 90 componentes de trabajo. Una característica importante de esta herramienta, que permite el prototipado de interfaces, es que los diseños que se realicen se pueden compartir; cabe señalar que cuenta con diseños interactivos que permiten testear la usabilidad desde el rol de usuario o cliente para tener un #[em feedback] más acertado.
@@ -85,7 +85,7 @@
           p.mb-0 Es una empresa que ofrece su herramienta llamada Prototyper, un programa potente con el cual se pueden elaborar prototipos de alto impacto y finos para aplicaciones móviles y web.
         .tarjeta.color-acento-contenido.p-3(x="78.5%" y="34.3%" numero="+")
           .h5.mb-2 Invision
-          p.mb-0 Herramienta para crear diseños o interfaces para apps móviles y web, permite también agregarles navegación.
+          p.mb-0 Herramienta para crear diseños o interfaces para #[em apps] móviles y web, permite también agregarles navegación.
         .tarjeta.color-acento-contenido.p-3(x="81.3%" y="65%" numero="+")
           .h5.mb-2 Fluid UI
           p.mb-0 Tiene dentro de su herramienta más de 2000 #[em widgets] que se pueden utilizar para la construcción de prototipos para aplicaciones en IOS, Android o Windows Phone.

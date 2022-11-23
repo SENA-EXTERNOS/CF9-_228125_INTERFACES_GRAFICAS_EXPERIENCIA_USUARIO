@@ -7,7 +7,7 @@
         span 4
       h1 Componentes de interfaz gráfica de usuario
     
-    .BGIMG05.p-md-5.p-4.mb-4
+    .BGIMG10.p-md-5.p-4.mb-4
       p Los componentes de la interfaz gráfica de usuario son los elementos visuales que la integran y permiten que el usuario interactúe con el sistema.
       p Estos componentes son:
 
@@ -17,10 +17,10 @@
         .col-lg-7(data-aos="fade-right")
           AcordionA.mb-5(tipo="a" clase-tarjeta="BGR01")
             .row(titulo="CAJA DE TEXTO")
-              p Las cajas o campos de texto son elementos de la interfaz a través de los cuales el usuario puede ingresar información al sistema. Este elemento permite ingresar por defecto caracteres varios, es decir, letras, números y caracteres especiales. Este componente se puede configurar con código para que solo reciba números, solo reciba letras o que valide el ingreso del email que cumpla con las condiciones correctas.
+              p Las cajas o campos de texto son elementos de la interfaz a través de los cuales el usuario puede ingresar información al sistema. Este elemento permite ingresar por defecto caracteres varios, es decir, letras, números y caracteres especiales. Este componente se puede configurar con código para que solo reciba números, solo reciba letras o que valide el ingreso del #[em email] que cumpla con las condiciones correctas.
               p.mb-0 Importante: al momento de emplear estos elementos configurar y tener muy claro su objetivo para poderlo diseñar eficientemente.
             .row(titulo="BOTONES")
-              p.mb-0 Los botones son los elementos a través de los cuales el usuario da clic para llevar a cabo una acción, tienen el evento on-clic con el cual se validan muchas funcionalidades. Estos elementos pueden ir en cualquier sección del aplicativo web, pero por lo general se encuentran en las barras de menú, barras de herramientas o menús laterales.
+              p.mb-0 Los botones son los elementos a través de los cuales el usuario da clic para llevar a cabo una acción, tienen el evento #[em on-clic] con el cual se validan muchas funcionalidades. Estos elementos pueden ir en cualquier sección del aplicativo web, pero por lo general se encuentran en las barras de menú, barras de herramientas o menús laterales.
             .row(titulo="BARRAS DE DESPLAZAMIENTO")
               p.mb-0 Son las barras que aparecen cuando el aplicativo tiene una página muy extensa, ya sea de forma vertical u horizontal. Aclarando que las formas más frecuentes son extensas en vertical debido a que en ancho u horizontal normalmente son adaptables las páginas. Estos elementos son configurables en su tamaño y estilos.
             .row(titulo="IMÁGENES")

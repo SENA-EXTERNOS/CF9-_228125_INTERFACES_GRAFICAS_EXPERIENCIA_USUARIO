@@ -44,11 +44,24 @@
 .inv01 .bloque-texto-g__texto, .inv02 .bloque-texto-g__texto
   width: 70%
   left: -30%
+  @media (max-width: $bp-max-md)
+    width: 100%
+    left: 0
 
-.inv01 .bloque-texto-g__img, .inv02 .bloque-texto-g__img
+.inv01 .bloque-texto-g__img, .inv02 .bloque-texto-g__img, .inv03 .bloque-texto-g__img
   width: 40%
   left: 61%
   bottom: -3px
+  @media (max-width: $bp-max-md)
+    width: 100%
+    left: 0
+
+.inv03 .bloque-texto-g__texto
+  width: 65%
+  left: -36%
+  @media (max-width: $bp-max-md)
+    width: 100%
+    left: 0
 
 .inv02 .bloque-texto-g__texto
   background-color: #0B5999
@@ -113,12 +126,20 @@
 .BGIMG09
   background-image: url("../assets/curso/fondos/img09.png")
 
+.BGIMG10
+  background-image: url("../assets/curso/fondos/img10.png")
+
 .BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG06, .BGIMG07, .BGIMG08, .BGIMG09
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
 
-.BGIMG01, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG07, .BGIMG08, .BGIMG09
+.BGIMG10
+  background-size: 100% 100% 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG07, .BGIMG08, .BGIMG09, .BGIMG10
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important

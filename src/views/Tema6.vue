@@ -59,7 +59,7 @@
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 6.2 Características
       
-      .bloque-texto-g.color-acento-botones.inv01.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-acento-botones.inv03.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema6/img07.svg')})`}"
         )(data-aos="fade-right")
