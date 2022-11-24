@@ -90,7 +90,7 @@
           .BGR04B.p-2
             <i class="fas fa-angle-right" style="color:#21CBAE"></i> Impact
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-10.cajon.color-acento-contenido.color-a.p-4(data-aos="flip-up")
         p.mb-0 Habría que decir también que el color es un elemento de vital importancia, dado que es muy poderoso e impactante en el diseño web a la hora de establecer un esquema de color para la aplicación que se está creando. Este proceso conlleva utilizar correctamente la guía de la teoría del color.
 

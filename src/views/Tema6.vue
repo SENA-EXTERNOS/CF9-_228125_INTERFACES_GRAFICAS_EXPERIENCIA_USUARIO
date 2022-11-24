@@ -7,7 +7,7 @@
         span 6
       h1 Patrones de navegación de interfaz gráfica de usuario
     
-    .bloque-texto-g.color-secundario.inv01.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-secundario.inv03.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img01.svg')})`}"
       )(data-aos="fade-right")
