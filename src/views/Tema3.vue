@@ -12,29 +12,42 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Estimado aprendiz, hasta aquí se ha hecho un abordaje acerca de las herramientas necesarias para la creación de interfaz de usuario. Ahora, se desarrollarán temas relacionados con la presentación de la información, entendiendo esta como un proceso del diseño de interfaces, que aunque no tiene nada que ver con conceptos técnicos de programación, sí tiene que ver con aspectos básicos del diseño en su más pura expresión y será de vital importancia para entender cómo se debe organizar e implementar la información de un producto digital, para que el usuario tenga una experiencia satisfactoria a la hora de interactuar con la aplicación.
+        p.mb-0 Hasta este punto, se han abordado las herramientas necesarias para la creación de interfaz de usuario. Ahora, se desarrollarán generalidades y aspectos claves relacionados con la presentación de la información, entendiendo esta como un proceso del diseño de interfaces que, aunque no tiene nada que ver con conceptos técnicos de programación, sí tiene que ver con aspectos básicos del diseño, en su más pura expresión y será de vital importancia, para entender cómo se debe organizar e implementar la información de un producto digital, para que el usuario tenga una experiencia satisfactoria, a la hora de interactuar con la aplicación.
+        br
+        br
+        p Los aspectos importantes para tener presentes en el momento de mostrar la información al usuario son los estilos utilizados en la aplicación, los colores, la tipografía, los gráficos o ilustraciones, las animaciones y las formas de navegación.        
+
     
-    p Los aspectos importantes para tener presentes en el momento de mostrar la información al usuario son los estilos utilizados en la aplicación, los colores, la tipografía, los gráficos o ilustraciones, las animaciones y las formas de navegación.
+    p De acuerdo con lo anterior, la tipografía, o fuente tipográfica como se conoce en el contexto profesional, es la familia de tipo de letra que se va a utilizar para mostrar la información de texto, así como su tamaño y su estilo. Existen diferentes tipos de fuentes que se pueden implementar en la página o aplicación web, en este caso, se hablará específicamente de “fuentes seguras para web”. En otras palabras, se puede decir que la tipografía es de gran relevancia para lograr un diseño exitoso… Encontrar la mejor o la tipografía ideal, es clave.
+
 
     .row.justify-content-between.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         .cajon-b.color-secundario.p-3.mb-4
-          p.mb-0 De acuerdo con lo anterior, la tipografía, o fuente tipográfica como se conoce en el contexto profesional, es la familia de tipo de letra que se va a utilizar para mostrar la información de texto, así como su tamaño y su estilo. Existen diferentes tipos de fuentes que se pueden implementar en la página o aplicación web, en este caso, se hablará específicamente de “fuentes seguras para web”. En otras palabras, se puede decir que la tipografía es de gran relevancia para lograr un diseño exitoso… Encontrar la mejor o la tipografía ideal, es clave.
+          p.mb-0 Las fuentes seguras son sencillas de implementar y aseguran una consistencia de marca, generan ventajas en la experiencia de usuario y optimización en los buscadores de posicionamiento. Además, una fuente segura es una tipografía que puede ser visualizada por la mayoría de los dispositivos, es decir, computadores de escritorio, portátiles y celulares. Normalmente vienen instaladas en cada sistema operativo.
+      
       .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img02.svg")
     
     .row.justify-content-center.mb-4
       .col-lg-9.cajon.color-primario.p-4(data-aos="flip-up")
-        .h5.mb-0 Las fuentes seguras son sencillas de implementar y aseguran una consistencia de marca, generan ventajas en la experiencia de usuario y optimización en los buscadores de posicionamiento. Además, una fuente segura es una tipografía que puede ser visualizada por la mayoría de los dispositivos, es decir, computadores de escritorio, portátiles y celulares. Normalmente vienen instaladas en cada sistema operativo.
+        p <b>¡Nota importante!</b>
+
+        p.mb-0 Las fuentes seguras son sencillas de implementar y aseguran una consistencia de marca, generan ventajas en la experiencia de usuario y optimización en los buscadores de posicionamiento. Además, una fuente segura es una tipografía que puede ser visualizada por la mayoría de los dispositivos, es decir, computadores de escritorio, portátiles y celulares. Normalmente vienen instaladas en cada sistema operativo.
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img03.svg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        .h5.mb-0 Es necesario recalcar que este tema de las tipografías es muy importante, porque si un visitante llega a la aplicación web y su dispositivo no tiene la fuente instalada, la aplicación la reemplazará por una fuente genérica mostrando de forma diferente el contenido o incluso mostrándolo de forma ilegible en algunos dispositivos.
+        p <b>¡Tenga presente!</b>
+        br
+        br
+        p.mb-0 Es necesario recalcar que este tema de las tipografías es muy importante, porque si un visitante llega a la aplicación web y su dispositivo no tiene la fuente instalada, la aplicación la reemplazará por una fuente genérica mostrando de forma diferente el contenido o incluso mostrándolo de forma ilegible en algunos dispositivos.
+        br
+        br
+        p De igual manera, contar con este tipo de fuentes puede mejorar la velocidad de carga de la aplicación y, como se dijo anteriormente, la experiencia de usuario UX y el posicionamiento SEO.
 
-    p De igual manera, contar con este tipo de fuentes puede mejorar la velocidad de carga de la aplicación y, como se dijo anteriormente, la experiencia de usuario UX y el posicionamiento SEO.
     .BGIMG05.p-md-5.p-4.mb-4
       p Algunas de las fuentes seguras que se pueden usar son:
 
@@ -107,6 +120,8 @@
 
     p Para elegir una gama o mezcla de colores armoniosa, hay que seleccionar dos colores opuestos entre sí (por ejemplo 1 y 2) y tres igualmente espaciados entre sí (por ejemplo 2, 3 y 4); formando un triángulo (o un cuadrado si se escogen dos pares de colores opuestos). El esquema de color armonizará cualquiera que sea el ángulo en el que se establezca la relación.
 
+    p Tenga presente, los siguientes aspectos de la gama cromática:
+
     TabsC.color-acento-botones.mb-5(data-aos="zoom-in")
       .row.BGIMG06.px-md-4.px-3.py-md-5.py-4(titulo="Colores primarios")
         .col-lg-8.order-lg-1.order-2
@@ -173,7 +188,9 @@
           .cajon-b.color-primario.p-3.mb-4
             p.mb-0 Ahora hablemos sobre los gráficos e ilustraciones, que en un sentido general se pueden definir como una representación visual que acompaña y da sentido a una temática específica y son claves para lograr que la experiencia del usuario sea dinámica, interactiva, intuitiva y acorde con las expectativas de este.
           .cajon.color-acento-contenido.color-a.p-4
-            .h5.mb-0 Los gráficos o ilustraciones utilizados en el diseño de páginas o aplicaciones web no se pueden poner en crudo, es decir, no se puede solo tomar una foto, pasarla al sitio y mostrarla; tampoco hacer una captura de pantalla y ponerla o descargar imágenes de repositorios y ponerlas. Para esto, se debe tratar la imagen; cuando se habla de tratar es de optimizarla, ajustarla, escalarla y asignar el tamaño o dimensiones exactas según el espacio que va a ocupar en la web. También deben ser trabajadas en alta definición, por si en algún caso deben adaptarse a una pantalla más grande o más pequeña, no se pixelen o se vean estiradas o deformadas.
+            p <b>Tratamiento de la imagen y el color</b>
+
+            p.mb-0 Los gráficos o ilustraciones utilizados en el diseño de páginas o aplicaciones web no se pueden poner en crudo, es decir, no se puede solo tomar una foto, pasarla al sitio y mostrarla; tampoco hacer una captura de pantalla y ponerla o descargar imágenes de repositorios y ponerlas. Para esto, se debe tratar la imagen; cuando se habla de tratar es de optimizarla, ajustarla, escalarla y asignar el tamaño o dimensiones exactas según el espacio que va a ocupar en la web. También deben ser trabajadas en alta definición, por si en algún caso deben adaptarse a una pantalla más grande o más pequeña, no se pixelen o se vean estiradas o deformadas.
 
 </template>
 

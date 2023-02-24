@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Interfaces gráficas de usuario y experiencia de usuario',
     descripcionCurso:
-      'Este componente formativo abordará el concepto de interfaces gráficas de usuario, con todos sus conceptos y buenas prácticas, así como el tema de experiencia de usuario.',
+      'Este componente formativo aborda las generalidades y aspectos claves sobre las interfaces gráficas de usuario, su configuración, utilidad, enfoques, desarrollos, patrones de diseño y navegación, buenas prácticas, entre otros. Todo ello, en función de una experiencia satisfactoria de usuarios.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -44,20 +44,6 @@ export default {
         numero: '1',
         titulo: 'Objetos de interfaz de usuario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Elementos de interfaz de usuario',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Características de interfaz de usuario',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
@@ -86,20 +72,6 @@ export default {
         numero: '5',
         titulo: 'Patrones de diseño en interfaz de usuario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Elementos',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Características',
-            hash: 't_5_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
@@ -107,20 +79,6 @@ export default {
         numero: '6',
         titulo: 'Patrones de navegación en interfaz de usuario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Elementos',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Características',
-            hash: 't_6_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -165,26 +123,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tipos de interfaz de usuario | Interface',
-      referencia: 'Teocom. 2021',
+      tema: 'Objetos de interfaz de usuario',
+      referencia:
+        'Teocom. (2021). <i>Tipos de interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YoRtDMj9E20',
     },
     {
-      tema: 'Interfaz de usuario',
-      referencia: 'Tedx Talks. 2019',
+      tema: 'Objetos de interfaz de usuario',
+      referencia:
+        'Grande, D. (2019). <i>Más allá de la interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bptPpkmprNw',
     },
     {
-      tema: 'UI: Conoce la interfaz de usuario',
-      referencia: 'Crehana, 2019',
+      tema: 'Componentes de interfaz gráfica de usuario',
+      referencia:
+        'Crehana. (2019). <i>UI: Conoce la interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/K7tqYyLq0M4',
     },
     {
-      tema: 'Elementos de una interfaz',
-      referencia: 'Francisco Aguilera, 2020',
+      tema: 'Componentes de interfaz gráfica de usuario',
+      referencia:
+        'Aguilera, F. (2020). <i>9 elementos de una interfaz</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/TSdKFE0sLg8',
     },
@@ -235,12 +197,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Campaña Haro, M. N., & Martillo Vásquez, E. L. (2020). <em> Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</em> [Tesis de grado, Universidad de Guayaquil].',
+        'Campaña Haro, M. N.,& Martillo Vásquez, E. L. (2020). <i>Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
       link: 'http://repositorio.ug.edu.ec/handle/redug/52257',
     },
     {
       referencia:
-        'Cantos Jara, J. K., & Molina Franco, K. J. (2020). <em> Análisis y desarrollo de la sección interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI-053 temonet de la Universidad De Guayaquil</em> [Tesis de grado, Universidad de Guayaquil].',
+        'Cantos Jara, J. K. & Molina Franco, K. J. (2020). <i>Análisis y desarrollo de la sección interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI–053 temonet de la Universidad De Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
       link: 'http://repositorio.ug.edu.ec/handle/redug/48814',
     },
     {
@@ -255,12 +217,12 @@ export default {
     },
     {
       referencia:
-        'Fernández-de-Córdoba-Martos, G. (2019). Creación de Interfaces Gráficas de Usuario (GUI) con MatLab. Universidad de Málaga.',
+        'Fernández-de-Córdoba-Martos, G. (2019). <i>Creación de Interfaces Gráficas de Usuario (GUI) con MatLab</i>. Universidad de Málaga.',
       link: 'https://hdl.handle.net/10630/17148',
     },
     {
       referencia:
-        'Martínez, Y. A., & Córdoba, C. A. C. (2018). Diseño de Interfaz de Usuario para la creación de Sistemas Multimedia para Apoyar el Desarrollo del Lenguaje. <em>Tecnología & Diseño</em>, (9), 39-55.',
+        'Martínez, Y. A. & Córdoba, C. A. C. (2018). Diseño de Interfaz de Usuario para la creación de Sistemas Multimedia para Apoyar el Desarrollo del Lenguaje. <i>Tecnología & Diseño</i>, (9), p. 39-55.',
       link: 'https://revistatd.azc.uam.mx/index.php/rtd/article/view/39/72',
     },
   ],

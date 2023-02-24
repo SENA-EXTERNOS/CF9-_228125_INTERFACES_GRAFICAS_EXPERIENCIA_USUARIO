@@ -27,7 +27,7 @@
       
       .row.justify-content-end.mb-4
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-          AcordionA.mb-5(tipo="a" clase-tarjeta="BGR01")
+          AcordionA(tipo="a" clase-tarjeta="BGR01")
             .row(titulo="BALSAMIQ")
               p Es una herramienta que se debe registrar para comenzar su uso, permite crear interfaces gráficas de usuario basadas en el #[em wireframing] y tiene un estilo visual de dibujo a mano alzada. Este #[em software] diseñado para la creación o bosquejo de interfaces tiene una variedad de elementos que se pueden utilizar: menús, barras de navegación, elementos de estado, etc. Además, tiene la funcionalidad de arrastrar y soltar para ir creando el diseño.
               p.mb-0 Después de terminar el diseño de las interfaces se pueden exportar a JPG o PDF para su posterior comunicación. Una ventaja de esta herramienta es que su trabajo es multiplataforma, es decir, se puede trabajar desde cualquier sistema operativo y permite el trabajo colaborativo con otros integrantes de su equipo. Habría que decir también que en su versión gratuita se puede trabajar desde la nube.
@@ -57,45 +57,45 @@
           img(src="@/assets/curso/tema2/img03.svg")
 
     .BGIMG05.p-md-5.p-4(data-aos="zoom-in")
-      .h5 Adicional a las ya nombradas y detalladas anteriormente, se tienen diferentes categorías para las herramientas de creación de interfaces gráficas.
+      p Estas son algunas categorías adicionales de herramientas, para la creación de interfaces gráficas:
       ImagenInfografica.color-acento-contenido.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema2/img04.svg')
-        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="47%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="43%" numero="+")
           .h5.mb-2 Balsamiq
           p.mb-0 Popular en el mercado por ser fácil de usar y permite desarrollar los #[em wireframes] del proyecto directamente en el navegador.
-        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="55.8%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="52.8%" numero="+")
           .h5.mb-2 Mockupstogo
           p.mb-0 Biblioteca con elementos visuales de Android y otros sistemas operativos para implementarla en Balsamiq.
-        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="65%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="62%" numero="+")
           .h5.mb-2 Moqups
           p.mb-0 Herramienta que se puede buscar y trabajar vía web y permite desarrollar prototipos de interfaces gráficas de forma rápida; esto gracias a que es intuitiva y cuenta con más de 300 elementos visuales para construir la interfaz. Tiene una versión gratuita, pero solo permite gestionar 2 proyectos y con limitaciones en las funcionalidades de la herramienta.
-        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="74.8%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="72.8%" numero="+")
           .h5.mb-2 MockFlow
           p.mb-0 Herramienta web donde se puede diseñar la estructura de una página o aplicación web, la característica principal es que permite añadir enlaces para ir de una página a otra y evaluar así la navegabilidad de la aplicación.
-        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="83.7%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="20.2%" y="82.7%" numero="+")
           .h5.mb-2 iPlotz
           p.mb-0 Herramienta que crea prototipos con navegación y permite el trabajo colaborativo.
-        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="16.2%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="9.6%" numero="+")
           .h5.mb-2 Axure
           p.mb-0 Es una herramienta muy usada en la ejecución de proyectos profesionales, se pueden crear prototipos de aplicaciones web o móviles con un nivel de detalle muy amplio. Tiene una comunidad muy activa donde se generan tutoriales y ayudas.
-        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="25.2%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="19.2%" numero="+")
           .h5.mb-2 Justinmind
           p.mb-0 Es una empresa que ofrece su herramienta llamada Prototyper, un programa potente con el cual se pueden elaborar prototipos de alto impacto y finos para aplicaciones móviles y web.
-        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="34.3%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="78.5%" y="29.3%" numero="+")
           .h5.mb-2 Invision
           p.mb-0 Herramienta para crear diseños o interfaces para #[em apps] móviles y web, permite también agregarles navegación.
-        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="65%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="62%" numero="+")
           .h5.mb-2 Fluid UI
           p.mb-0 Tiene dentro de su herramienta más de 2000 #[em widgets] que se pueden utilizar para la construcción de prototipos para aplicaciones en IOS, Android o Windows Phone.
-        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="73.75%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="71.75%" numero="+")
           .h5.mb-2 Proto.io
           p.mb-0 Herramienta también para crear prototipos móviles, pero con la característica de poder crear algunas funcionalidades habituales como tocar, arrastrar, pellizcar y otras más. Ofrece una versión plenamente funcional, pero de prueba y su licencia dura 15 días.
-        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="82.75%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="81.75%" numero="+")
           .h5.mb-2 Concept.ly
           p.mb-0 Esta herramienta da la posibilidad de subir nuestros bocetos y añadirles zonas interactivas para crear interacción o agregar navegación.
-        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="91.7%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="81.3%" y="90.7%" numero="+")
           .h5.mb-2 Appery.io
           p.mb-0 No solo permite crear prototipos sino también desarrollar la aplicación entera, trabaja con Phonegap para hacerlas híbridas.
 

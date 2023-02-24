@@ -20,46 +20,51 @@
         .h5.mb-0 El usuario estará interactuando con el sistema siempre a través de una GUI, por eso es importante conocer cómo se crean, qué elementos la componen, sus beneficios, desventajas y diferentes características.
 
     .BGIMG01.p-md-5.p-4  
-      separador
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-9.mb-lg-0.mb-4(data-aos="fade-right")
-          #t_1_1.titulo-segundo.color-acento-contenido
-            h2 1.1 Elementos
+          h3 Elementos
           .cajon-b.color-acento-contenido.p-3
             p.mb-0 Una interfaz gráfica se compone de diferentes elementos según sea su diseño y su destino de uso, por ejemplo, se pueden crear interfaces gráficas para aplicaciones de escritorio y su navegabilidad será a través de ventanas emergentes. También se pueden hacer diseños para aplicaciones móviles y su visualización será a través de #[em Activitys] con su respectivo #[em layout] o también se pueden generar diseños para aplicaciones web y su diseño deberá guiarse por el estándar de los navegadores, por su manejo a través de las 12 columnas y la estructura de HTML5 para que los navegadores comprendan mejor el contenido de esta.
         .col-lg-3(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img02.svg")
     
-      p Elementos de una interfaz gráfica de usuario.
+      p Algunos elementos importantes de una interfaz gráfica de usuario, son:
     
     .BGIMG02.p-4.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
+            h3 Estructura
             p.mb-0 Esta imagen muestra un ejemplo de estructura de página en HTML5, pero los diseños pueden variar; lo importante es mantener siempre las etiquetas de cada bloque que forma un elemento de la página. En una GUI se tienen elementos de barra de menú de diferentes estilos.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img03.svg")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
-            p.mb-0 El menú #[em drop down] es aquel que se diseña para que su navegación tenga la funcionalidad de ir desplegando hacia la derecha y abajo el menú subyacente o los submenús que se tengan en el diseño, así como lo muestra la ilustración 2.
+            h3 Menú <i>drop down</i>
+            p.mb-0 El menú #[em drop down]  es aquel que se diseña para que su navegación tenga la funcionalidad de ir desplegando hacia la derecha y abajo el menú subyacente, o los submenús que se tengan en el diseño, así como lo muestra la ilustración.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img04.svg")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
+            h3 Menú estrecho
             p.mb-0 El menú estrecho tiene la particularidad de expandir cada una de sus opciones cuando se le da clic y de mostrar su nombre en modo hipervínculo; se usa cuando el espacio determinado para él es muy reducido.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img05.svg")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
-            p A continuación, se muestra una barra de navegación que también puede actuar como otro menú dentro de la aplicación que se esté desarrollando.
-            p Las barras de navegación son elementos de la interfaz gráfica de usuario que permiten dar las opciones al usuario para moverse por la aplicación y ejecutar diferentes acciones. 
+            h3 Barra de navegación
+            p También puede actuar como otro menú, dentro de la aplicación que se esté desarrollando.
+
+            p Las barras de navegación son elementos de la interfaz gráfica de usuario, que permiten dar al usuario, las opciones para moverse por la aplicación y ejecutar diferentes acciones. 
+
             p.mb-0 Hasta aquí se ha hablado de los elementos que componen una interfaz gráfica de usuario, ahora veamos las características de una interfaz gráfica de usuario.
+
+
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img06.svg")
 
-    separador
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Características
+    .row.mt-5
+      h3 Características
     
     .BGIMG03.p-md-5.p-4.mb-4(data-aos="zoom-in")
       p.mb-5 Las características que deben tener las interfaces gráficas de usuario y el conjunto de elementos que las constituyen son los siguientes:

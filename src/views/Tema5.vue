@@ -19,7 +19,7 @@
         .col-auto
           img(src="@/assets/curso/tema5/img02.svg")
         .col
-          .h4.mb-0 Estos patrones cumplen su función basados en una serie de objetivos
+          .p.mb-0 Estos patrones cumplen su función, basados en una serie de objetivos, como:
       
       .row.justify-content-between.mb-4
         .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -38,21 +38,25 @@
           img(src="@/assets/curso/tema5/img03.svg")
 
     .BGIMG01.p-md-5.p-4
-      separador
-      #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 5.1 Elementos
+      .row
+        h3 Elementos
+
+        p Los usuarios, por experiencia de manejo o por costumbre, ya reconocen la forma de interactuar de algunas estructuras visuales, porque las han visto antes. Ya saben que si dan clic en algún objeto de la interfaz, este les va a devolver información. 
       
       .row.justify-content-center.mb-4
         .col-lg-10.cajon.color-acento-botones.p-4(data-aos="flip-up")
-          p.mb-0 A continuación, se nombrarán algunos patrones utilizados en el diseño de interfaces de usuario. Es de importancia saber que los usuarios, por experiencia de manejo o por costumbre, ya reconocen la forma de interactuar de algunas estructuras visuales, porque las han visto antes. Ya saben que si dan clic en algún objeto de la interfaz este les va a devolver información. Por eso es importante tener presente los patrones, innovar mucho e intentar cambiar ese esquema mental; romper ese paradigma de los usuarios puede ser que los frustre al manejar la aplicación o sencillamente decidan cambiarse a otra.
+          p.mb-0 Por eso es importante tener presente los patrones. Cuando se innova en exceso o se intentan cambiar en demasía los esquemas mentales, se pueden llegar a romper paradigmas de tradición y, por lo tanto, generarles frustración al manejar la aplicación, lo cual puede conducirles a cambiarse, fácilmente, a otra aplicación.
 
+
+      p A continuación, se nombran algunos patrones utilizados en el diseño de interfaces de usuario:
 
     .BGIMG02.p-4.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Tabs]
-            p.mb-0 Los “Tabs” son utilizados para resolver ciertos contenidos en donde el usuario no necesita cambiar de página. En ellas, el problema o contexto requiere que el contenido deba separarse en secciones. Las tabs permiten acceder a las diferentes partes a través de un área de contenido única que no actualiza la página al hacer clic en cada sección.
+            p.mb-0Los Tabs son utilizados para resolver ciertos contenidos en donde el usuario no necesita cambiar de página. En ellas, el problema o contexto requiere que el contenido deba separarse en secciones. Los tabs permiten acceder a las diferentes partes a través de un área de contenido única, que no actualiza la página al hacer clic en cada sección.
+
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img04.png")
         .row.justify-content-center.align-items-center
@@ -64,7 +68,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Cards]
-            p.mb-0 Las tarjetas o Cards proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
+            p.mb-0 Las tarjetas o cards, proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
+            
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img06.png")
         .row.justify-content-center.align-items-center
@@ -87,12 +92,14 @@
             img(src="@/assets/curso/tema5/img09.png")
     
     .BGIMG09.p-md-5.p-4
-      separador
-      #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 5.2 Características
-      
-      p La característica principal de los patrones es lograr su reutilización en varios contextos problemas, y así tratar de estandarizar, no solo la forma de diseñar, sino de afrontar los problemas de diseño comunes.
-      p Posterior a lo dicho anteriormente, los patrones facilitan no solo el diseño sino la interacción del usuario con la aplicación web que se está desarrollando.
+      .row.mt-3
+        h3 Características de los patrones de diseño de interfaz
+
+        p La característica principal de los patrones, es la de permitir su reutilización en varios contextos problemas y, así, tratar de estandarizar no solo la forma de diseñar, sino de afrontar los problemas de diseño comunes.
+
+        p Posteriormente, los patrones facilitan no solo el diseño sino la interacción del usuario, con la aplicación web que se está desarrollando. 
+
+        p Según sus características, es posible clasificar, los patrones de diseño de interfaz, en tres grupos:
 
     .BGIMG05.p-md-5.p-4
       .h5.mb-5 Para concluir, según sus características se pueden clasificar en tres grupos:
@@ -120,6 +127,13 @@
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.text-white Usar un patrón de diseño no es copiar, sino reutilizar un componente que es una solución ya realizada, probada y conocida, para solucionar el problema común que se tiene en la aplicación.<br><br>Asimismo, utilizar patrones de diseño ayuda a tener presente cómo otras #[em apps] u otras empresas están solucionando ese problema común.<br><br>Por último, es siempre difícil comenzar un nuevo proyecto y más si se empieza todo de cero, es como tener una hoja en blanco sin saber qué hacer, en cambio, con los patrones ya se tiene una guía de cómo abordar ciertos contextos.
+
+
+    .row.justify-content-center.mb-4
+        .col-lg-10.cajon.color-acento-botones.p-4(data-aos="flip-up")
+          p <b>¡Importante!</b>
+          p.mb-0 Siempre será difícil comenzar un nuevo proyecto y más si se empieza todo desde cero; es como tener una hoja en blanco sin saber qué hacer. En cambio, con los patrones, ya se tiene una guía de cómo abordar ciertos contextos.
+
 
 </template>
 

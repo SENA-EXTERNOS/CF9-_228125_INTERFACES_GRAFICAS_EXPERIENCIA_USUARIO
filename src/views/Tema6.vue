@@ -12,15 +12,19 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img01.svg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Al igual que el ítem anterior, de patrones de diseño donde se reutilizan para dar soluciones a temas comunes según el contexto problema; los patrones de navegación permiten explorar esas formas de navegar una página o aplicativo que se han venido implementando en los diferentes proyectos.<br><br>Los patrones de navegación existen para las diferentes categorías, para aplicaciones de escritorio, aplicaciones web y aplicaciones móviles. Los patrones móviles son importantes también tenerlos presentes porque en el diseño web se debe ser responsivo y adaptarse a cualquier pantalla y es importante tener los patrones claros para una buena experiencia de usuario.
+        p.mb-0 ALos patrones de navegación permiten explorar las posibles formas de navegar una página o aplicativo, que se han venido implementando en los diferentes proyectos.
+        br
+        br
+        p Los patrones de navegación existen para las variadas categorías, para las aplicaciones de escritorio, las aplicaciones web y aplicaciones móviles. Es importante, también, tener presente los patrones móviles en el diseño web: este debe ser responsivo y adaptarse a cualquier pantalla, y es importante tener los patrones claros para una buena experiencia de usuario.
 
     .BGIMG09.p-md-5.p-4
-      separador
       .row.justify-content-center
         .col-lg-8.mb-lg-0.mb-4
-          #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-            h2 6.1 Elementos
-          p.mb-0 Tanto para usuarios nuevos como para usuarios antiguos, la navegación dentro del producto digital debe ser amigable, intuitiva y de fácil movilidad. A continuación, se mencionan algunos de los patrones de navegación más usados en el ámbito del desarrollo de interfaces gráficas de usuario. 
+          h3 Elementos claves de los patrones para navegación de interfaz de usuario
+          p Tanto para usuarios nuevos como para usuarios antiguos, la navegación dentro del producto digital, debe ser amigable, intuitiva y de fácil movilidad. 
+
+          p A continuación, se mencionan algunos de los patrones de navegación más usados en el ámbito del desarrollo de interfaces gráficas de usuario: 
+
         .col-lg-3.col-6(data-aos="fade-left")
           img.w-75(src="@/assets/curso/tema6/img02.svg")
     
@@ -55,9 +59,8 @@
             p.mb-0 Con este tipo de navegación se puede fusionar el menú con el fondo, lo que es particularmente útil en los pantallazos iniciales, donde es deseable que el usuario preste toda la atención necesaria a la imagen y título que se está presentando. Este tipo de menú puede ser bastante adecuado si se está creando algún diseño minimalista y solo se poseen colores planos como fondo en el sitio, de manera que los elementos del menú son completamente visibles.
 
     .BGIMG09.p-md-5.p-4
-      separador
-      #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 6.2 Características
+      .row
+        h3 Características de los patrones para navegación de interfaz de usuario
       
       .bloque-texto-g.color-acento-botones.inv03.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
@@ -66,15 +69,16 @@
         .bloque-texto-g__texto.p-4(data-aos="fade-left")
           p.mb-0 Este tipo de patrones permiten al diseñador optimizar los espacios, las funciones de la aplicación y, sobre todo, mantener la facilidad de uso por parte del usuario. <br><br>Algunas otras características y ventajas de los patrones de navegación son:<br><br>●	Ocupación de un espacio mínimo en pantalla.<br>●	Es un indicador de las acciones principales que desean tomar los usuarios.<br>●	Captan la atención de los usuarios porque es un elemento que se encuentra en primer plano.<br>●	El usuario centra toda su atención en el menú una vez se ha activado.<br>●	Permite organizar la información de forma coherente sin abrumar a los usuarios.<br>●	Una vez que el usuario ha decidido a qué sección ir, se puede dedicar todo el espacio en pantalla a contenido específico para esa sección.<br>●	Se pueden organizar varios niveles de navegación e indicarlas mediante flechas o desplegables.
 
+    .row.mt-5
+      p En este punto del componente formativo, fortalezca algunos elementos importantes del diseño de interfaces de usuario, observando con atención el video que se muestra seguidamente, sobre la herramienta Moqups:
+
     figure.mb-4(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center
       .col-lg-10.cajon.color-primario.p-4(data-aos="flip-up")
-        p Estimado aprendiz, hasta aquí llega el desarrollo temático del componente formativo Interfaces gráficas de usuario y experiencia de usuario. 
-        p Recuerde seguir explorando los conceptos aquí estudiados; estos serán claves al momento de iniciar su propio desarrollo. Tenga en cuenta que el éxito de su proyecto dependerá en gran medida de la pertinencia y lo funcional que este resulte para el usuario en términos de usabilidad, accesibilidad y coherencia.
-        .h5 ¡Éxitos en este recorrido por el conocimiento!
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>
