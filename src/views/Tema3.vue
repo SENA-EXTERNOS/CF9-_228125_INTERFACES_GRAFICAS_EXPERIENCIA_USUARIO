@@ -22,19 +22,15 @@
 
 
     .row.justify-content-between.align-items-center.mb-4
-      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        .cajon-b.color-secundario.p-3.mb-4
-          p.mb-0 Las fuentes seguras son sencillas de implementar y aseguran una consistencia de marca, generan ventajas en la experiencia de usuario y optimización en los buscadores de posicionamiento. Además, una fuente segura es una tipografía que puede ser visualizada por la mayoría de los dispositivos, es decir, computadores de escritorio, portátiles y celulares. Normalmente vienen instaladas en cada sistema operativo.
-      
-      .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/tema3/img02.svg")
-    
-    .row.justify-content-center.mb-4
-      .col-lg-9.cajon.color-primario.p-4(data-aos="flip-up")
+      .col-lg-8.cajon.color-primario.p-4(data-aos="flip-up")
         p <b>¡Nota importante!</b>
 
         p.mb-0 Las fuentes seguras son sencillas de implementar y aseguran una consistencia de marca, generan ventajas en la experiencia de usuario y optimización en los buscadores de posicionamiento. Además, una fuente segura es una tipografía que puede ser visualizada por la mayoría de los dispositivos, es decir, computadores de escritorio, portátiles y celulares. Normalmente vienen instaladas en cada sistema operativo.
 
+      .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        img(src="@/assets/curso/tema3/img02.svg")
+    
+ 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img03.svg')})`}"

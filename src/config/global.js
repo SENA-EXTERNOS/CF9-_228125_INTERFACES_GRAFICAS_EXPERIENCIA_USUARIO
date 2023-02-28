@@ -42,14 +42,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Objetos de interfaz de usuario',
+        titulo: 'Objetos de Interfaz de usuario',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Herramientas para creación de interfaz de usuario',
+        titulo: 'Herramientas para creación de Interfaz de usuario',
         desarrolloContenidos: true,
       },
       {
@@ -63,21 +63,21 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Componentes de interfaz gráfica de usuario',
+        titulo: 'Componentes de Interfaz gráfica de usuario',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Patrones de diseño en interfaz de usuario',
+        titulo: 'Patrones de diseño en Interfaz de usuario',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Patrones de navegación en interfaz de usuario',
+        titulo: 'Patrones de navegación en Interfaz de usuario',
         desarrolloContenidos: true,
       },
     ],
@@ -123,30 +123,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Objetos de interfaz de usuario',
+      tema: 'Objetos de Interfaz de usuario',
       referencia:
-        'Teocom. (2021). <i>Tipos de interfaz de usuario</i> [video]. YouTube.',
+        'Teocom. (2021). <i>Tipos de Interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YoRtDMj9E20',
     },
     {
-      tema: 'Objetos de interfaz de usuario',
+      tema: 'Objetos de Interfaz de usuario',
       referencia:
-        'Grande, D. (2019). <i>Más allá de la interfaz de usuario</i> [video]. YouTube.',
+        'Grande, D. (2019). <i>Más allá de la Interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bptPpkmprNw',
     },
     {
-      tema: 'Componentes de interfaz gráfica de usuario',
+      tema: 'Componentes de Interfaz gráfica de usuario',
       referencia:
-        'Crehana. (2019). <i>UI: Conoce la interfaz de usuario</i> [video]. YouTube.',
+        'Crehana. (2019). <i>UI: Conoce la Interfaz de usuario</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/K7tqYyLq0M4',
     },
     {
-      tema: 'Componentes de interfaz gráfica de usuario',
+      tema: 'Componentes de Interfaz gráfica de usuario',
       referencia:
-        'Aguilera, F. (2020). <i>9 elementos de una interfaz</i> [video]. YouTube.',
+        'Aguilera, F. (2020). <i>9 elementos de una Interfaz</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/TSdKFE0sLg8',
     },
@@ -172,7 +172,7 @@ export default {
     {
       termino: 'Layout',
       significado:
-        'contenedor invisible en la interfaz gráfica que puede integrar varios elementos visuales.',
+        'contenedor invisible en la Interfaz gráfica que puede integrar varios elementos visuales.',
     },
     {
       termino: 'Método',
@@ -202,7 +202,7 @@ export default {
     },
     {
       referencia:
-        'Cantos Jara, J. K. & Molina Franco, K. J. (2020). <i>Análisis y desarrollo de la sección interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI–053 temonet de la Universidad De Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
+        'Cantos Jara, J. K. & Molina Franco, K. J. (2020). <i>Análisis y desarrollo de la sección Interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI–053 temonet de la Universidad De Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
       link: 'http://repositorio.ug.edu.ec/handle/redug/48814',
     },
     {
@@ -212,7 +212,7 @@ export default {
     },
     {
       referencia:
-        'Castillo, L. C. B., Daza, R. P. T., Peña, G. D., & Riaza, H. F. Q. (2018). Desarrollo de una interfaz gráfica para el control de posición de un manipulador paralelo plano 3RRR. <em>Scientia et Technica</em>, 23(2), 168-174.',
+        'Castillo, L. C. B., Daza, R. P. T., Peña, G. D., & Riaza, H. F. Q. (2018). Desarrollo de una Interfaz gráfica para el control de posición de un manipulador paralelo plano 3RRR. <em>Scientia et Technica</em>, 23(2), 168-174.',
       link: 'https://dialnet.unirioja.es/descarga/articulo/6643332.pdf',
     },
     {

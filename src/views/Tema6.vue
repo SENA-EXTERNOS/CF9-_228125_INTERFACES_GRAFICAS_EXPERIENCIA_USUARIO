@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img01.svg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 ALos patrones de navegación permiten explorar las posibles formas de navegar una página o aplicativo, que se han venido implementando en los diferentes proyectos.
+        p.mb-0 Los patrones de navegación permiten explorar las posibles formas de navegar una página o aplicativo, que se han venido implementando en los diferentes proyectos.
         br
         br
         p Los patrones de navegación existen para las variadas categorías, para las aplicaciones de escritorio, las aplicaciones web y aplicaciones móviles. Es importante, también, tener presente los patrones móviles en el diseño web: este debe ser responsivo y adaptarse a cualquier pantalla, y es importante tener los patrones claros para una buena experiencia de usuario.

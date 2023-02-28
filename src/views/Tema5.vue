@@ -55,7 +55,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Tabs]
-            p.mb-0Los Tabs son utilizados para resolver ciertos contenidos en donde el usuario no necesita cambiar de página. En ellas, el problema o contexto requiere que el contenido deba separarse en secciones. Los tabs permiten acceder a las diferentes partes a través de un área de contenido única, que no actualiza la página al hacer clic en cada sección.
+            p.mb-0Los <i>Tabs</i> son utilizados para resolver ciertos contenidos en donde el usuario no necesita cambiar de página. En ellas, el problema o contexto requiere que el contenido deba separarse en secciones. Los <i>tabs</i> permiten acceder a las diferentes partes a través de un área de contenido única, que no actualiza la página al hacer clic en cada sección.
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img04.png")
@@ -68,7 +68,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Cards]
-            p.mb-0 Las tarjetas o cards, proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
+            p.mb-0 Las tarjetas o <i>cards</i>, proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
             
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img06.png")
@@ -102,7 +102,6 @@
         p Según sus características, es posible clasificar, los patrones de diseño de interfaz, en tres grupos:
 
     .BGIMG05.p-md-5.p-4
-      .h5.mb-5 Para concluir, según sus características se pueden clasificar en tres grupos:
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img.w-75(src="@/assets/curso/tema5/img10.svg")
@@ -120,13 +119,6 @@
               .BGR06.p-4
                 .h4.text-white.text-center Patrones Arquitectónicos
                 p.text-white.text-center.mb-0 Interacción de elementos entre niveles de Arquitectura de Información.
-
-    .bloque-texto-g.color-acento-botones.inv02.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema5/img11.svg')})`}"
-      )(data-aos="fade-right")
-      .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.text-white Usar un patrón de diseño no es copiar, sino reutilizar un componente que es una solución ya realizada, probada y conocida, para solucionar el problema común que se tiene en la aplicación.<br><br>Asimismo, utilizar patrones de diseño ayuda a tener presente cómo otras #[em apps] u otras empresas están solucionando ese problema común.<br><br>Por último, es siempre difícil comenzar un nuevo proyecto y más si se empieza todo de cero, es como tener una hoja en blanco sin saber qué hacer, en cambio, con los patrones ya se tiene una guía de cómo abordar ciertos contextos.
 
 
     .row.justify-content-center.mb-4

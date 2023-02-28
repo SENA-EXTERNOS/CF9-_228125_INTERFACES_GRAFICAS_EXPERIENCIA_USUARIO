@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
-    p.mb-5 Después de terminar el componente formativo, es necesario revisar esta síntesis realizada de todo lo que trató, para tener una mirada resumida de su ruta de conocimiento a través de este componente.
-
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
