@@ -159,13 +159,13 @@
           ul.lista-ul--color.ms-4  
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Rojo y verde
+              |	Rojo y verde.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Azul y naranja
+              |	Azul y naranja.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Violeta y amarillo          
+              |	Violeta y amarillo.          
         .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src="@/assets/curso/tema3/img09.png")
       .row.BGIMG06.px-md-4.px-3.py-md-5.py-4(titulo="Colores análogos")
