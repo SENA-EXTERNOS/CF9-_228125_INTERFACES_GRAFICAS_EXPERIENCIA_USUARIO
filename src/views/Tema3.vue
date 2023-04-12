@@ -135,22 +135,22 @@
           ul.lista-ul--color.ms-4  
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Amarillo + Verde = Amarillo verdoso
+              |	Amarillo + Verde = Amarillo verdoso.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Azul + Verde = Azul verdoso
+              |	Azul + Verde = Azul verdoso.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Azul + Violeta = Azul violáceo
+              |	Azul + Violeta = Azul violáceo.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Rojo + Violeta = Rojo violáceo
+              |	Rojo + Violeta = Rojo violáceo.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Rojo + Naranja = Rojo anaranjado
+              |	Rojo + Naranja = Rojo anaranjado.
             li
               <i class="fas fa-circle" style="color:#12263F; font-size: x-small"></i>
-              |	Amarillo + Naranja = Amarillo anaranjado          
+              |	Amarillo + Naranja = Amarillo anaranjado.          
         .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src="@/assets/curso/tema3/img08.png")
       .row.BGIMG06.px-md-4.px-3.py-md-5.py-4(titulo="Colores complementarios")
