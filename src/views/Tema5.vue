@@ -56,40 +56,38 @@
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Tabs]
             p.mb-0Los <i>Tabs</i> son utilizados para resolver ciertos contenidos en donde el usuario no necesita cambiar de página. En ellas, el problema o contexto requiere que el contenido deba separarse en secciones. Los <i>tabs</i> permiten acceder a las diferentes partes a través de un área de contenido única, que no actualiza la página al hacer clic en cada sección.
-
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img04.png")
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/imgs/CF9-3(2).png")
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 Carruseles
             p.mb-0 Son componentes que me permiten presentar diferentes elementos como  diapositivas, con un deslizamiento, se puede mostrar contenido imagen o texto en el carrusel.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img05.png")
+            img(src="@/assets/curso/imgs/CF9-4(3).png")
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Cards]
             p.mb-0 Las tarjetas o <i>cards</i>, proveen un contenedor con la propiedad de tener contenido flexible y extensible con múltiples variantes y opciones.
-            
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img06.png")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 Notificaciones
             p.mb-0 Componentes emergentes que aparecen en la pantalla para darle al usuario alguna indicación o información.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img07.png")
-        .row.justify-content-center.align-items-center
+          .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/imgs/CF9-5(2).png")
+        .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 #[em Breadcrumbs]
             p.mb-0 Es un menú que siempre indica la página actual donde se encuentra localizado sin navegación o jerarquía.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img08.png")
+          .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/imgs/CF9-6.png")
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 Modales
             p.mb-0 Componente que se muestra en forma de ventana emergente con funcionalidades específicas y le permite al usuario aplicar alguna acción e inmediatamente volver a la página principal.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img09.png")
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/imgs/CF9-7.png")
     
     .BGIMG09.p-md-5.p-4
       .row.mt-3

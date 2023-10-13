@@ -198,12 +198,10 @@ export default {
     {
       referencia:
         'Campaña Haro, M. N.,& Martillo Vásquez, E. L. (2020). <i>Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
-      link: 'http://repositorio.ug.edu.ec/handle/redug/52257',
     },
     {
       referencia:
         'Cantos Jara, J. K. & Molina Franco, K. J. (2020). <i>Análisis y desarrollo de la sección Interfaz gráfica de usuario del módulo framework de la plataforma del proyecto FCI–053 temonet de la Universidad De Guayaquil</i> [Tesis de grado, Universidad de Guayaquil].',
-      link: 'http://repositorio.ug.edu.ec/handle/redug/48814',
     },
     {
       referencia:
