@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF9-_228125_INTERFACES_GRAFICAS_EXPERIENCIA_USUARIO/](https://sena-externos.github.io/CF9-_228125_INTERFACES_GRAFICAS_EXPERIENCIA_USUARIO/)
 
 #
 
